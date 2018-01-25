@@ -6,7 +6,7 @@ import { Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 // TouchableOpacity
 // TouchableHightlight
-class RandomeNumber extends React.Component {
+class RandomNumber extends React.Component {
   static propTypes = {
     number: PropTypes.number.isRequired,
   };
@@ -33,4 +33,4 @@ const styles = StyleSheet.create ({
   },
 });
 
-export default RandomeNumber;
+export default RandomNumber;
